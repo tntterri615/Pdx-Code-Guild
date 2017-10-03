@@ -41,7 +41,7 @@ forward(55)
 left(50)
 forward(55)
 
-#make friend for stick figure
+#make friend for stick figure*
 
 penup()
 forward(200)
