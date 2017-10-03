@@ -1,8 +1,12 @@
-from turtle import *
+'''
+this draws a stick figure using turtle
+'''
 
 from turtle import *
+
 
 #make arms
+
 forward(100)
 left(180)
 forward(50)
@@ -14,6 +18,7 @@ fillcolor('blue')
 begin_fill()
 
 #make head
+
 edge_length = 50
 n_sides = 25
 
@@ -26,6 +31,7 @@ while i < n_sides:
 end_fill()
 
 #make body and legs
+
 left(90)
 forward(120)
 left(65)
