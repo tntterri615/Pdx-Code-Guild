@@ -43,6 +43,7 @@ forward(55)
 
 #make friend for stick figure*
 
+pencolor(green)
 penup()
 forward(200)
 right(120)
