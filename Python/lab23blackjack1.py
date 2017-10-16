@@ -6,7 +6,7 @@ def card_value(card):
         return 10
     elif card == 'ace':
             return 1
-    elif card == first_card or card == second_card or card == third_card:
+    else:
         return int(card)
 
 
