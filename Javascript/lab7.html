@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        li {
+            cursor: pointer;
+        }
+
+        #finished_list {
+            text-decoration: line-through;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>TO DO:</h1>
+    <input id="add_to_do" type="text" placeholder="enter"/>
+    <button id="bt_add_to_do">ADD</button>
+    <ul id='list'></ul>
+    <ul id="finished_list"></ul>
+<script>
+
+    let add_to_do = document.querySelector('#add_to_do');
+    let ul = document.querySelector('#list');
+    let bt_add_to_do = document.querySelector('#bt_add_to_do');
+    let finished_ul = document.querySelector('#finished_list');
+
+
+    function add_todo(todo_text) {
+        let li = document.createElement('li');
+        let span_text = document.createElement('span');
+        span_text.innerText = todo_text;
+        span_text.onclick = function () {
+            this.parentElement.remove();
+            let finished_li = document.createElement('li');
+            finished_li.onclick = function() {
+                this.remove();
+                add_todo(this.innerText);
+            };
+            finished_li.innerText = span_text.innerText;
+            finished_ul.appendChild(finished_li);
+        };
+
+        let bt_remove = document.createElement('span');                     //created remove element in li//
+        bt_remove.onclick = function() {
+            this.parentElement.remove();
+        };
+        bt_remove.innerText = '\u00D7';
+        bt_remove.className = 'close';
+
+
+        li.appendChild(span_text);
+        li.appendChild(bt_remove);
+        ul.appendChild(li);
+    }
+
+    bt_add_to_do.onclick = function() {                                             //function that adds li to ul//
+        add_todo(add_to_do.value);
+    }
+
+</script>
+</body>
+</html>

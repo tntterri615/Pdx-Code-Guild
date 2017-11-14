@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <meta name="description" content="Description">
+        <link rel="stylesheet" type="text/css" href="lab2.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="background" style="background-image: url('https://img.clipartxtras.com/c2ef0597010bff5d71ab5368db3368e8_math-numbers-wallpaper-numbers-wallpaper-clipart_1024-768.jpeg')"></div>
+        <h1>Guess the Number</h1>
+        <h3>The computer is thinking of a number between 1 - 10. What is it?</h3>
+        <input id="input_user_choice" type="text" placeholder="enter number"/>
+        <button id="bt_user_choice">enter</button>
+        <div id="win_status"></div>
+
+        <script>
+            function random_num() {
+                let computer_choices = ['1','2', '3', '4', '5', '6', '7', '8', '9', '10'];
+                let random_index = Math.floor(Math.random()*computer_choices.length);
+                return computer_choices[random_index];
+            }
+            let comp_choice = random_num();
+            console.log(comp_choice);
+            let user_num = document.querySelector('#input_user_choice');
+            let win_status = document.querySelector('#win_status');
+            let bt_user_choice = document.querySelector('#bt_user_choice');
+            let i = 0;
+
+            bt_user_choice.onclick = function() {
+                console.log(comp_choice, user_num.value);
+                if (comp_choice === user_num.value && i < 10) {
+                    win_status.innerText = 'You won!';
+                }
+                else if (i > 10) {
+                    win_status.innerText = 'You lose!';
+                }
+                else {
+                    let num_of_guesses_left = 9 - (i);
+                    win_status.innerText = 'Wrong! Try again! ' + num_of_guesses_left + ' guesses left.';
+
+                }
+                i += 1;
+            }
+
+        </script>
+    </body>
+</html>
+
+

@@ -1,0 +1,17 @@
+#hand_value{
+  font-size: 30px;
+  color:white;
+}
+body {
+  background-image: url(http://www.bostonherald.com/sites/default/files/styles/gallery/public/media/2014/12/26/12282014BlackjackTable.jpg?itok=tZVWyqvG);
+    background-size: cover;
+  color:white;
+}
+h1 {
+  font-size: 60px;
+  text-align:center;
+}
+h3 {
+  font-size:40px;
+}
+

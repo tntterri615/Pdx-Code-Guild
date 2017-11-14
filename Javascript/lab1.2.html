@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock, Paper, Scissors</title>
+        <meta name="Rock, Paper, Scissors" content="game">
+        <link rel="stylesheet" type="text/css" href="lab1.css">
+        <style>
+        .flex-player1 {
+          display: flex;
+        }
+        .flex-container div {
+          background-color: #f1f1f1;
+          margin: 10px;
+          padding:20px;
+          font-size: 30px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="background"></div>
+        <h1>Rock, Paper, Scissors</h1>
+        <!--<h3>What is your choice? </h3>-->
+        <!--<input id="input_user_choice" type="text" placeholder="enter choice"/>-->
+        <!--<button id="bt_rps">enter</button>-->
+        <!--<div id="div_computer_choice"></div>-->
+        <!--<div id="comp_vs_user"></div>-->
+        <div class="flex-player1" id="players">
+            <div id="player1_info">
+                <div id="player">Player 1</div>
+                <div id="player1_choice">choice</div>
+                <div id="player1_img">player image</div>
+            </div>
+            <div id="player1_rps">
+                <div>rock</div>
+                <div>paper</div>
+                <div>scissors</div>
+                <button id="bt_enter_player1">enter</button>
+            </div>
+        <div class="flex-player2" id="players">
+            <div id="player">Player 2</div>
+            <div id="player2_choice">choice</div>
+            <div id="player2_img">player image</div>
+
+        </div>
+        <div id="player2_rps">
+            <div>rock</div>
+            <div>paper</div>
+            <div>scissors</div>
+            <button id="bt_enter_player2">enter</button>
+        </div>
+        <script>
+
+
+            function rps() {
+                let choices = ['rock', 'paper', 'scissors'];
+                let random_index = Math.floor(Math.random() * choices.length);
+                return choices[random_index];
+            }
+
+            let input_user_choice = document.getElementById('input_user_choice');
+            let div_computer_choice = document.getElementById('div_computer_choice');
+            let comp_vs_user = document.getElementById('comp_vs_user');
+            let bt_rps = document.getElementById('bt_rps');
+
+            bt_rps.onclick = function() {
+
+                let user_choice = input_user_choice.value;
+                let computer_choice = rps();
+                div_computer_choice.innerText = 'Computer chose ' + computer_choice;
+
+                if (computer_choice === user_choice) {
+                    comp_vs_user.innerText = 'Tie';
+                } else if (computer_choice === 'rock') {
+                    if (user_choice === 'paper') {
+                        comp_vs_user.innerText = 'User wins';
+                    } else {
+                        comp_vs_user.innerText = 'Computer wins';
+                    }
+                } else if (computer_choice === 'paper') {
+                    if (user_choice === 'rock') {
+                        comp_vs_user.innerText = 'Computer wins';
+                    } else {
+                        comp_vs_user.innerText = 'User wins';
+                    }
+                } else if (computer_choice === 'scissors') {
+                    if (user_choice === 'rock') {
+                        comp_vs_user.innerText = 'User wins';
+                    } else {
+                        comp_vs_user.innerText = 'Computer wins';
+                    }
+                }
+
+            }
+        </script>
+
+    </body>
+</html>

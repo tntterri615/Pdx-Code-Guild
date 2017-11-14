@@ -1,0 +1,37 @@
+<html>
+<head>
+    <body>
+<script>
+
+//function x() {
+//    alert ('hi!');
+//}
+//x();
+
+ // pass a function as a parameter
+            function x() {
+                alert('hi!');
+            }
+            function call_this(f) {
+                f();
+            }
+            call_this(x); // NOT call_this(x());
+
+
+            // a more practical example of passing a function as a parameter
+            function alter_array(arr, f) {
+                for (let i=0; i<arr.length; ++i) {
+                    arr[i] = f(arr[i]);
+                }
+            }
+            let arr = [1, 2, 3, 4, 5];
+            alter_array(arr, function(v) {
+                return v*v;
+            });
+            console.log(arr);
+</script>
+</body>
+</head>
+</html>
+
+
