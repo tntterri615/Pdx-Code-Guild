@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <div id="clock_div"></div>
+        <div>
+            <h4>Stopwatch</h4>
+            <div id="stopwatch"></div>
+        </div>
+        <button id="bt_stopwatch">start</button>
+        <button id="bt_lap_counter">lap</button>
+        <ul id="laps"></ul>
+        <div id="test"></div>
+        <script>
+            let clock_div = document.querySelector('#clock_div');
+            let bt_stopwatch = document.querySelector('#bt_stopwatch');
+            let bt_lap_counter = document.querySelector('#bt_lap_counter')
+
+            function update_clock() {
+                x = new Date();
+                //clock_div.innerHTML = x.toLocaleTimeString();
+                clock_div.innerText = x.getFullYear() + ':' + (x.getMonth()+1) + ':' + x.getDate() + ' ' + x.getHours() + ':' + x.getMinutes() + ':' + x.getSeconds();
+            }
+
+            update_clock();
+            setInterval(function (){
+                update_clock();
+            }, 1000);
+
+            let stopwatch_time = new Date();
+//            let stopwatch_time = stopwatch_time.getHours() + stopwatch_time.getMinutes() + stopwatch_time.getSeconds() + stopwatch_time.getMilliseconds();
+            let hours = stopwatch_time.getHours();
+            let minutes = stopwatch_time.getMinutes();
+            let seconds = stopwatch_time.getSeconds();
+            let milliseconds = stopwatch_time.getMilliseconds();
+            let pretty_stopwatch_time = (hours + ':'+ minutes +':' + seconds +':' + ':' + milliseconds);
+
+            function format_date(stopwatch_time) {
+                let hours = stopwatch_time.getHours();
+                let minutes = stopwatch_time.getMinutes();
+                let seconds = stopwatch_time.getSeconds();
+                let milliseconds = stopwatch_time.getMilliseconds();
+                return hours +':'+ minutes +':'+ seconds +':'+ milliseconds;
+            }
+
+            let interval;
+
+            function stopwatch_update() {
+                stopwatch_time.setMilliseconds(stopwatch_time.getMilliseconds() + 100);
+                document.getElementById("stopwatch").innerHTML = format_date(stopwatch_time);
+            }
+
+            bt_stopwatch.onclick = function () {
+                stopwatch_time.setHours(0, 0, 0, 0);//get stopwatch time to look pretty//
+                clearInterval(interval);
+                interval = setInterval(stopwatch_update, 100);
+            };
+            
+            bt_lap_counter.onclick = function () {                                //lap counter//
+                let li = document.createElement('li');
+                let ul = document.querySelector('#laps');
+                li.innerText = document.getElementById("stopwatch").innerText;
+                ul.appendChild(li);
+            }
+
+
+
+
+
+        </script>
+    </body>
+</html>
