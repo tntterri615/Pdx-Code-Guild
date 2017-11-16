@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #cnv {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="cnv" width="500" height="500"></canvas>
+        <script>
+            let width = document.getElementById('cnv').getAttribute("width");
+            let height = document.getElementById('cnv').getAttribute("height");
+//            let blue = Math.floor(Math.random()*256);
+//            let green = Math.floor(Math.random()*256);
+//            let red = Math.floor(Math.random()*25);
+//            let color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+            let balls = [];
+
+            for (i = 0; i < 10; i++) {
+                let ball = {
+                    radius: 5,
+                    px: Math.random() * (width - 20),
+                    py: Math.random() * (height - 20),
+                    vx: (2 * Math.random() - 1) * 2,
+                    vy: (2 * Math.random() - 1) * 2,
+//                    color: color
+                };
+                balls.push(ball);
+
+                let cnv = document.getElementById('cnv');
+                let blue = 0;
+                function main_loop() {
+                    ball.px += ball.vx;
+                    ball.py += ball.vy;
+//                    ball.vy += 0.5;                             //downward velocity//
+                    let ctx = cnv.getContext("2d");
+
+
+                    //ctx.clearRect(0, 0, cnv.width, cnv.height);
+                    //ctx.fillStyle = "#000000";
+                    //ctx.fillRect(ball.px, ball.py, ball.width, ball.height);
+
+                    ctx.beginPath();
+                    ctx.arc(ball.px, ball.py, ball.radius, 0, 2 * Math.PI, false);
+                    ctx.fillStyle = 'rgba(25, 120, 130, 0.5)';
+                    ctx.fill();
+
+
+                    if (ball.px > cnv.width - ball.radius) {
+                        ball.vx *= -1;
+                        ball.vx *= 0.99;
+                        ball.vy *= 0.99;
+                        ball.px = cnv.width - ball.radius;
+                    } else if (ball.px - ball.radius < 0) {
+                        ball.vx *= -1;
+                        ball.px = ball.radius;
+                    }
+                    if (ball.py > cnv.height - ball.radius) {
+                        ball.vy *= -1;
+                        ball.vx *= 0.99;
+                        ball.vy *= 0.99;
+                        ball.py = cnv.height - ball.radius;
+                    } else if (ball.py - ball.radius < 0) {
+                        ball.vy *= -1;
+                        ball.py = ball.radius;
+                    }
+                    window.requestAnimationFrame(main_loop);
+                }
+
+                window.requestAnimationFrame(main_loop);
+            }
+
+        </script>
+    </body>
+</html>
