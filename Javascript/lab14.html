@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <input id="username" type="text" placeholder="username">
+    <span id='username_info' style="display:none;color:red;">username must be at least 6 characters long</span>
+    <button id="submit_username">submit</button>
+    <input id="password" type="text" placeholder="password">
+    <span id="password_info" style="display: none;color:darkred;">password must be at least 6 characters long</span>
+    <input id="name" type="text" placeholder="first name last name">
+    <span id="name_info" style="display: none;color:darkred;">must be in format first name last name</span>
+    <input id="email" type="text" placeholder="email">
+    <span id="email_info" style="display: none;color:darkred;">properly format your email, yo</span>
+    <input id="phone_number" type="text" placeholder="phone number">
+    <span id="phone_number_info" style="display: none;color:darkred;">properly format your digits, yo</span>
+    <input id="dob" type="text" placeholder="dob">
+    <span id="dob_info" style="display: none;color:darkred;">properly format your DOB, yo</span>
+    <input id="ssn" type="text" placeholder="ssn">
+    <span id="ssn_info" style="display: none;color:darkred;">properly format your SSN, yo</span>
+
+    <script>
+        let username = document.querySelector('#username');              //username//
+        let username_info = document.querySelector('#username_info');
+
+        username.oninput = function() {
+            let pattern = /^\w{6,}$/;
+            if (!pattern.test(this.value)) {
+                this.style.outline = '1px solid red';
+                username_info.style.display = 'inline';
+              } else {
+                this.style.outline = '1px solid black';
+                username_info.style.display = 'none';
+            }
+        };
+        let password = document.querySelector('#password');             //password//
+        let password_info = document.querySelector('#password_info');
+
+        password.oninput = function() {
+            let pattern = /^.{6,}$/;
+            if (!pattern.test(this.value)) {
+                this.style.outline = '1px solid red';
+                username_info.style.display = 'inline';
+              } else {
+                this.style.outline = '1px solid black';
+                username_info.style.display = 'none';
+            }
+        };
+        let name = document.querySelector('#name');                          //name//
+        let name_info = document.querySelector('#name_info');
+
+        name.oninput = function() {
+            let pattern = /^[a-zA-Z]+ [a-zA-Z]+$/;
+            if (!pattern.test(this.value)) {
+                this.style.outline = '1px solid red';
+                name_info.style.display = 'inline';
+              } else {
+                this.style.outline = '1px solid black';
+                name_info.style.display = 'none';
+            }
+        };
+        let email = document.querySelector('#email');                   //email//
+        let email_info = document.querySelector('#email_info');
+
+        email.oninput = function() {
+            let pattern = /^\w+@\w+\.\w+$/;
+            if (!pattern.test(this.value)) {
+                this.style.outline = '1px solid red';
+                email_info.style.display = 'inline';
+              } else {
+                this.style.outline = '1px solid black';
+                email_info.style.display = 'none';
+            }
+        };
+        let phone_number = document.querySelector('#phone_number');              //phone number//
+        let phone_number_info = document.querySelector('#phone_number_info');
+
+        phone_number.oninput = function() {
+            let pattern = /^\d{3}-\d{3}-\d{4}$/;
+            if (!pattern.test(this.value)) {
+                this.style.outline = '1px solid red';
+                phone_number_info.style.display = 'inline';
+              } else {
+                this.style.outline = '1px solid black';
+                phone_number_info.style.display = 'none';
+            }
+        };
+        let dob = document.querySelector('#dob');              //dob//
+        let dob_info = document.querySelector('#dob_info');
+
+        dob.oninput = function() {
+            let pattern = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+            if (!pattern.test(this.value)) {
+                this.style.outline = '1px solid red';
+                dob_info.style.display = 'inline';
+              } else {
+                this.style.outline = '1px solid black';
+                dob_info.style.display = 'none';
+            }
+        };
+        let ssn = document.querySelector('#ssn');              //ssn//
+        let ssn_info = document.querySelector('#ssn_info');
+
+        ssn.oninput = function() {
+            let pattern = /^\d{3}\-\d{2}\-\d{4}$/;
+            if (!pattern.test(this.value)) {
+                this.style.outline = '1px solid red';
+                ssn_info.style.display = 'inline';
+              } else {
+                this.style.outline = '1px solid black';
+                ssn_info.style.display = 'none';
+            }
+        };
+
+
+
+    </script>
+</body>
+</html>
