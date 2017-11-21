@@ -40,10 +40,33 @@ h3{
     justify-content: space-between;
     flex-direction: row;
 }
-.flex_player1{                        /*not working */
+.flex-players {
+    display: flex;
+    flex-direction: row;
+}
+#P1 {
+    display: flex;
     flex-direction: column;
 }
-#player1_rps {                         /*not working */
+#player1_rps {
+    display: flex;
     flex-direction: row;
-
+    align-content: space-around;
+}
+.rps_button:active{
+    background: red;
+    }
+.rps_button:focus{
+    background: red;
+}
+.player {
+    font-size: 20px;
+    text-align: center;
+}
+#comp_vs_user {
+    text-align: center;
+    font-size: 50px;
+}
+#div_computer_choice {
+    font-size: 20px;
 }
