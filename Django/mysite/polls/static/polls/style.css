@@ -1,0 +1,17 @@
+li a {
+    color: #9644fc;
+    font-size: 30px;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat right bottom;
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
