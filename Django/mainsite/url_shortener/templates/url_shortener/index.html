@@ -1,5 +1,8 @@
 <h1>URL Shortener</h1>
 
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'url_shortener/style.css' %}" />
+
 
 <form action="{% url 'url_shortener:create' %}" method="post">
     {% csrf_token %}

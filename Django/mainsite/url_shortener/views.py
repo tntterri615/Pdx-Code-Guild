@@ -1,5 +1,9 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse, HttpResponseRedirect
+# from django.urls import reverse
+from .models import TinyUrl
+import random
+import string
 
 
 def index(request):
@@ -7,5 +11,26 @@ def index(request):
 
 
 def create(request):
-    return render(request, 'url_shortener', {})
+    url = request.POST['url']
+    code = rand_code()
+    newUrl = TinyUrl(url=url, code=code)                   #new entry in the database
+    newUrl.save()
 
+    # redirect back to the index page
+    return HttpResponse(code)
+
+
+def rand_code():
+    i = 0
+    output = ""
+    while i < 6:                                                      #shorten URL to 6 characters
+        output += random.choice(string.ascii_lowercase)
+        i += 1
+
+    return output
+
+
+def code_redirect(request, code):
+    tinyurl = get_object_or_404(TinyUrl, code=code)
+    url = tinyurl.url
+    return HttpResponseRedirect('https://' + url)
