@@ -21,13 +21,12 @@
 <ul>
     {% for todo_item in todo_items %}
     <li>
+        <button>check</button>
         <span>{{ todo_item.todo_text }}</span>
         <form action="{% url 'todo:complete_todo' %}" method="post">
             {% csrf_token %}
-            <input type="hidden" value="{{ todo_item.id }}" name=""/>
-            <button>check</button>
+            <input type="hidden" value="{{ todo_item.id }}" name="todo_id"/>
         </form>
-
     </li>
     {% endfor %}
 </ul>

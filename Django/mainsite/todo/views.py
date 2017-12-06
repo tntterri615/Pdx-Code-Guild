@@ -30,19 +30,23 @@ def index(request):
     # output += '</body></html>'
     # return HttpResponse(output)
 
-    todo_items = TodoItem.objects.all()
+    # todo_items = TodoItem.objects.all()
+    todo_items = TodoItem.objects.filter(completed=False)
+    completed_items = TodoItem.objects.filter(completed=True)
 
-    context = {'todo_items': todo_items}
+    context = {'todo_items': todo_items, 'completed_items': completed_items}
     return render(request, 'todo/index.html', context)
 
 
 def savetodo(request):
     text = request.POST['text']
+    print(reverse('todo:index'))
 
     todo_item = TodoItem(todo_text=text)
     todo_item.save()
 
-    return HttpResponse(reverse('todo:index'))
+    return HttpResponseRedirect(reverse('todo:index'))
+
 
 def complete_todo(request):
     todo_id = request.POST['todo_id']
@@ -51,7 +55,6 @@ def complete_todo(request):
     todo_item.save()
 
     return HttpResponseRedirect(reverse('todo:index'))
-    # return HttpResponse('OK')
 
 
 

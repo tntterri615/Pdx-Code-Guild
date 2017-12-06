@@ -6,7 +6,7 @@ class TodoItem(models.Model):
     completed = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.todo_text
+        return self.todo_text + ' - ' + str(self.completed)
 
 
 

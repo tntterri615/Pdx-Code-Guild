@@ -1,0 +1,72 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'library/style.css' %}" />
+
+<style>
+    table {
+        text-align:left;
+        border-spacing: 0px;
+    }
+    td {
+        padding:4px;
+    }
+    table, th, td {
+        border: 0.5px solid black;
+    }
+</style>
+
+
+<h1>LIBRARY</h1>
+
+<form action="{% url 'library:checkout' %}" method="post">
+    {% csrf_token %}
+
+    <div class="dropdown">
+      <button type="submit" class="dropbtn">Checkout</button>
+      <select name="id">
+          {% for book in checked_in_books %}
+          <option value="{{book.id}}">{{book.title}} - {{book.author.lastName}}</option>
+          {% endfor %}
+        <input type="text" name="user" placeholder="user name"/>
+      </select>
+    </div>
+</form>
+
+
+<form action="{% url 'library:checkin' %}" method="post">
+    {% csrf_token %}
+
+    <div class="dropdown">
+      <button type="submit" class="dropbtn">Checkin</button>
+      <select name="id">
+          {% for book in checked_out_books %}
+          <option value="{{book.id}}">{{book.title}} - {{book.author.lastName}}</option>
+          {% endfor %}
+        <!--<input type="text" name="user" placeholder="user name"/>-->
+      </select>
+    </div>
+</form>
+
+<div>
+    <h2>Checked Out Books</h2>
+    <table>
+        <tr>
+            <th>Book</th>
+            <th>User</th>
+            <th>Date Checked Out</th>
+        </tr>
+            {% for book in checked_out_books %}
+        <tr>
+            <td>{{book.title}}</td>
+            <td>{{book.user}}</td>
+            <td>{{book.timestamp}}</td>
+        </tr>
+    {% endfor %}
+
+    </table>
+</div>
+
+<ul>
+    {% for book in checked_out_books %}
+    <li>{{book.title}}</li>
+    {% endfor %}
+</ul>
