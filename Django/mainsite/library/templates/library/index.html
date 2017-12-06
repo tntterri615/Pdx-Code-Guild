@@ -41,24 +41,26 @@
           {% for book in checked_out_books %}
           <option value="{{book.id}}">{{book.title}} - {{book.author.lastName}}</option>
           {% endfor %}
-        <!--<input type="text" name="user" placeholder="user name"/>-->
+        <input type="text" name="user" placeholder="user name"/>
       </select>
     </div>
 </form>
 
 <div>
-    <h2>Checked Out Books</h2>
+    <h2>Book Log</h2>
     <table>
         <tr>
             <th>Book</th>
             <th>User</th>
-            <th>Date Checked Out</th>
+            <th>Timestamp</th>
+            <th>Checked In?</th>
         </tr>
-            {% for book in checked_out_books %}
+            {% for status in history %}
         <tr>
-            <td>{{book.title}}</td>
-            <td>{{book.user}}</td>
-            <td>{{book.timestamp}}</td>
+            <td>{{status.book}}</td>
+            <td>{{status.user}}</td>
+            <td>{{status.timestamp}}</td>
+            <td>{{status.checked_in}}</td>
         </tr>
     {% endfor %}
 
