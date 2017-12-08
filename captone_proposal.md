@@ -3,41 +3,43 @@
 #RUNdo Your Cravings
 
 
-Overview: I'm sitting on the couch and looked down and just realized I ate and entire 'sleeve' of Oreos. Has this ever happended to you? Do you immediately feel guilty and want to do undo what you just ate? With this app, just add in a few personal fitness details and find out how far you need to run to get back to zero!
+Overview: I'm sitting on the couch and looked down and just realized I ate and entire 'sleeve' of Oreos. Has this ever happened to you? Do you immediately feel guilty and want to do undo what you just ate? With this app, just add in a few personal fitness details and find out how far you need to run to get back to zero!
                                                                                                                                                                                        
                                                                                                                                                                                   
- 1. features- help people stay fit when they have cheat meals
-    1. api with access to a food database so users will have ability to input generic foods and restaurant foods to obtain accurate nutritional information
+ 1. Features- help people stay fit when they have cheat meals
+    1. use api to access a food/exercise database so users will have ability to input generic foods and/or restaurant foods to obtain accurate nutritional information
     2. pre-set calculations will provide accurate workout information to user
-    3. link to Myfitnesspal to input food and run data to profile (major milestone)
+    3. link to fitness app/tracker like Myfitnesspal to input food and run data to profile (major milestone)
                                                                                                                                           
- 2. libraries/frameworks- Django     
+ 2. Libraries/frameworks- Django     
  
- 3. functionality- 
-    - the homepage will prompt you to input the food you ate, physical stats (age, sex, height, weight), fitness level (how fast you are in mph), and a calculate function
-    - the user's individual results page will include confirmation of their food, a results table (shows how far they will need to run to burn off food eaten), and a recalculate function that will redirect to the homepage 
+ 3. Functionality- 
+    - the homepage will prompt you to login or create account 
+    - the profile page  will prompt you to input the food you ate, physical stats (age, sex, height, weight), fitness level (how fast you are in mph), and a calculate function
+    - the user's individual results page will include confirmation of their food, a results table (shows how far they will need to run to burn off food eaten), and a recalculate function that will redirect to their profile page for new input 
  
- 4. model- 
-    1. user data
+ 4. Models- 
+    1. User profile
         - age
         - sex
         - height
         - weight
-        - fitness level (mph)
+        - fitness level (running- mph; other activities- newbie/novice, average, athletic/buff)
         
-    2. food data
-        - quantity
-        - calories
+    2. Food data
+        - serving size
+        - number of servings
+        - total calories
               
- 5. schedule
+ 5. Schedule
     1. Milestone 1
-        - user and food data tables 
-        - html pages 
+        - create profile to store user data
+        - food data tables 
+        - figure out how to pull calorie info from a food api 
+        - running/exercise calculations (function)
     2. Milestone 2
-        - api 
-        - running calculations
-    3. Milestone 3
-        - create profile to save info??
-    4. Milestone 4 
-        - link to myfitnesspal or similar app tracker 
-
+        - add additional types of exercises (swimming, tennis, ultimate frisbee)
+        - link and push data to Myfitnesspal or similar app tracker 
+    
+    
+    
