@@ -1,0 +1,19 @@
+<h1>Vlog</h1>
+
+
+<h2>Posts</h2>
+
+<div>
+    <ul>
+        {% for blog in blogs %}
+        <li>{{blog.title}}</li>                   <!--how do i make this a link? with regex?-->
+        {% endfor %}
+    </ul>
+</div>
+
+
+<div>
+     <form action="{% url 'blog:logoutUser' %}" method="post">
+    {% csrf_token %}
+    <button type="submit" class="submit">Logout</button>
+</div>

@@ -1,0 +1,33 @@
+<h1>{{post.title}}</h1>
+
+
+<div>
+    <p>{{post.body}}</p>
+</div>
+
+<h4>Comments</h4>
+<div>
+    {% for comment in comments %}
+   <div> "{{ comment.body}}" ~ {{comment.user}}</div>
+    {% endfor %}
+</div>
+
+
+
+<div>
+    <form action="" method="post">
+        {% csrf_token %}
+        <textarea name="body"></textarea>
+        <button type="submit" class="addComment">Comment</button>
+    </form>
+</div>
+
+
+{% if user.is_authenticated == False %}
+<div>
+     <form action="{% url 'blog:logoutUser' %}" method="post">
+    {% csrf_token %}
+    <button type="submit" class="submit">Logout</button>
+</div>
+{% endif %}
+
