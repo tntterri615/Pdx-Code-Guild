@@ -7,9 +7,9 @@ Overview: I'm sitting on the couch and looked down and just realized I ate and e
                                                                                                                                                                                        
                                                                                                                                                                                   
  1. Features- help people stay fit when they have cheat meals
-    1. use api to access a food/exercise database so users will have ability to input generic foods and/or restaurant foods to obtain accurate nutritional information
-    2. pre-set calculations will provide accurate workout information to user
-    3. link to fitness app/tracker like Myfitnesspal to input food and run data to profile (major milestone)
+    - use api to access a food/exercise database so users will have ability to input generic foods and/or restaurant foods to obtain accurate nutritional information
+    - pre-set calculations will provide accurate workout information to user
+    - link to fitness app/tracker like Myfitnesspal to input food and run data to profile (major milestone)
                                                                                                                                           
  2. Libraries/frameworks- Django     
  
