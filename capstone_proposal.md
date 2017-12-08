@@ -19,25 +19,25 @@ Overview: I'm sitting on the couch and looked down and just realized I ate and e
     - the user's individual results page will include confirmation of their food, a results table (shows how far they will need to run to burn off food eaten), and a recalculate function that will redirect to their profile page for new input 
  
  4. Models- 
-    1. User profile
+    - User profile
         - age
         - sex
         - height
         - weight
         - fitness level (running- mph; other activities- newbie/novice, average, athletic/buff)
         
-    2. Food data
+    - Food data
         - serving size
         - number of servings
         - total calories
               
  5. Schedule
-    1. Milestone 1
+    - Milestone 1
         - create profile to store user data
         - food data tables 
         - figure out how to pull calorie info from a food api 
         - running/exercise calculations (function)
-    2. Milestone 2
+    - Milestone 2
         - add additional types of exercises (swimming, tennis, ultimate frisbee)
         - link and push data to Myfitnesspal or similar app tracker 
     
