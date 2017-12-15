@@ -26,12 +26,9 @@ pairs = {}
 singles = {}
 for sock in sock_count:                                # do math to get number of pairs
     pairs[sock] = sock_count[sock]//2
-
-print(f'pairs: {pairs}')
-
-for sock in sock_count:                                # do math to get number of singles
     singles[sock] = sock_count[sock]%2
 
+print(f'pairs: {pairs}')
 print(f'singles: {singles}')
 
 

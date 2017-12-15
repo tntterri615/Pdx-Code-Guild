@@ -19,7 +19,6 @@
 
 <form action="{% url 'library:checkout' %}" method="post">
     {% csrf_token %}
-
     <div class="dropdown">
       <button type="submit" class="dropbtn">Checkout</button>
       <select name="id">
@@ -30,7 +29,6 @@
       </select>
     </div>
 </form>
-
 
 <form action="{% url 'library:checkin' %}" method="post">
     {% csrf_token %}
@@ -63,7 +61,6 @@
             <td>{{status.checked_in}}</td>
         </tr>
     {% endfor %}
-
     </table>
 </div>
 

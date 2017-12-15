@@ -30,7 +30,7 @@ def rand_code():
     return output
 
 
-def code_redirect(request, code):
-    tinyurl = get_object_or_404(TinyUrl, code=code)
+def code_redirect(request, code1):
+    tinyurl = get_object_or_404(TinyUrl, code=code1)
     url = tinyurl.url
     return HttpResponseRedirect('https://' + url)

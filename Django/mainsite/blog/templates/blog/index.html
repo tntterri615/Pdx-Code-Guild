@@ -4,8 +4,6 @@
 </style>
 
 
-
-
 <h1>Vlog</h1>
 
 {% if user.is_authenticated == False %}
@@ -43,4 +41,5 @@
      <form action="{% url 'blog:logoutUser' %}" method="post">
     {% csrf_token %}
     <button type="submit" class="submit">Logout</button>
+    </form>
 </div>

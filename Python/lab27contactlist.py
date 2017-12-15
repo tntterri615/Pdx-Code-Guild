@@ -46,6 +46,7 @@ def contact_index(contacts, search_text):
     for i in range(len(contacts)):
         if search_text.lower() == contacts[i]['name'].lower():
             return i
+    return None
 
 # Version 3, reverse of version 1
 def save(contacts):
@@ -71,6 +72,13 @@ while True:
         break
     elif command == 'create':
         contact = {}
+
+
+        # for key in keys:
+        #     attr = input('what is their '+key+'?')
+        #     contact[key] = attr
+
+
         contact[key[0]] = input('Enter the name: ')
         contact[key[1]] = input('Enter their favorite fruit: ')
         contact[key[2]] = input('Enter their favorite color: ')

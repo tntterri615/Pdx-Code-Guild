@@ -28,5 +28,4 @@ n = 0
 for i in nums:
     n += i
 
-
 print(n / (len(nums)))

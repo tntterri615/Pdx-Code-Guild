@@ -1,4 +1,4 @@
-# give basic blackjack advise
+# give basic blackjack advice
 
 
 def card_value(card):

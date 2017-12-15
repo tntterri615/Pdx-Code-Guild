@@ -4,7 +4,7 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz !.?'
 # rot13 =  'nopqrstuvwxyzabcdefghijklm !.?'
 
-text = 'hello'
+text = input('Enter string to be encrypted: ')
 
 encrypted = '' # string builder pattern
 rotation = int(input("Rotation amount: "))

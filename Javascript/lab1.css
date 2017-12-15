@@ -1,7 +1,9 @@
 body{
     background: url('https://nerdgeistdotcom.files.wordpress.com/2015/03/kwik-e-mart.png');
     background-size: cover;
-    color: white;
+    color: red;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px black;
 }
 h1{
   text-align:center;
@@ -51,7 +53,8 @@ h3{
 #player1_rps {
     display: flex;
     flex-direction: row;
-    align-content: space-around;
+    justify-content: space-between;
+    padding: 2px;
 }
 .rps_button:active{
     background: red;

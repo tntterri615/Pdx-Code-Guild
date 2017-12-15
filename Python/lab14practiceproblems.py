@@ -12,6 +12,7 @@
 #
 #
 # print(count_letter('a', 'antidisestablishmentterianism'))
+# printcount_letter('p', 'Pneumonoultramicroscopicsilicovolcanoconiosis')
 
 
 '''
@@ -39,8 +40,6 @@ print(word)
 
 
 # Write a function using random.randint and subscription to get a random element of a list and return it.
-
-#
 
 
 # print(random_element(['apples', 'bananas', 'pears']))
@@ -92,11 +91,72 @@ print(word)
 # print(maximum([2,9,3,6,14]))
 
 
-def mean(nums):
-    n = 0
-    for i in nums:
-        n += i
-        print(n / (len(nums)))
+# def mean(nums):
+#     n = 0
+#     for i in nums:
+#         n += i
+#     print(n / (len(nums)))
+#
+#
+# print(mean([5, 0, 8, 3, 4, 1, 6]))
+
+# reverse list
+
+# def reverse_list(my_list):
+#     for i in my_list:
+#         return(my_list[::-1])
+
+#
+#
+# #  print(my_list)
+#
+# print(reverse_list(['cookie', 'cake', 'candy']))
 
 
-print(nums([5, 0, 8, 3, 4, 1, 6]))
+# Write a function to find all common elements between two lists.
+
+
+# def common_elements(nums1, nums2):
+#     output = []
+#     for num in nums1:
+#         if num in nums2:
+#             output.append(num)
+#     print(output)
+#
+#
+# nums1 = [1,4,6,7,5]
+# nums2 = [4,3,5,6,1]
+#
+# common_elements(nums1, nums2)
+
+
+# move elements of list with values less than 10 to new list
+
+# def extract_less_than_ten(nums):
+#     output = []
+#     for num in nums:
+#         if num < 10:
+#             output.append(num)
+#     print(output)
+#
+# extract_less_than_ten([2,12,45,3,7,4])
+
+# Write a function to combine two lists of equal length into one, alternating elements.
+
+def combine(nums1, nums2):
+    nums3 = []
+    for i in range(len(nums1)):
+        # append the element of nums1 at i to nums3
+        nums3.append(nums1[i])
+    # append the element of nums2 at i to nums3
+        nums3.append(nums2[i])
+    return nums3
+
+x = combine(['a','b','c'],[1,2,3])
+print(x)
+
+
+
+
+
+

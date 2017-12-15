@@ -15,8 +15,8 @@
         <div class="flex-players" id="players">
             <div id="P1">
                 <div id="player1_info">
-                    <div class="rps_button player">Player 1</div>
-                    <div id="player1_img" class="rps_button">player image</div>
+                    <div class="player">Player 1</div>
+                    <div id="player1_img" class="rps_button"></div>
                 </div>
                 <div id="player1_rps">
                     <button id="bt_rock" class="rps_button">rock</button>
@@ -24,10 +24,9 @@
                     <button id="bt_scissors" class="rps_button">scissors</button>
                 </div>
             </div>
-
             <div>
                 <div class="player">Homer</div>
-                <div id="player2_img">player image</div>
+                <div id="player2_img"></div>
                 <div id="div_computer_choice"></div>
             </div>
         </div>
@@ -36,9 +35,10 @@
           <source src="sounds/eatmyshorts.mp3" type="audio/mpeg">
         </audio><audio id="homer_sound">
           <source src="sounds/whyyoulittle.mp3" type="audio/mpeg">
+        </audio><audio id="doh_sound">
+          <source src="sounds/doh.mp3" type="audio/mpeg">
         </audio>
         <script>
-
 
             function rps() {
                 let choices = ['rock', 'paper', 'scissors'];
@@ -53,6 +53,7 @@
             let comp_vs_user = document.getElementById('comp_vs_user');
             let bart_sound = document.getElementById('bart_sound');
             let homer_sound = document.getElementById('homer_sound');
+            let doh_sound = document. getElementById('doh_sound');
 
             function play_rps(user_choice) {
                 let computer_choice = rps();
@@ -60,6 +61,7 @@
 
                 if (computer_choice === user_choice) {
                     comp_vs_user.innerText = 'Tie';
+                    doh_sound.play()
                 } else if (computer_choice === 'rock') {
                     if (user_choice === 'paper') {
                         comp_vs_user.innerText = 'Bart wins';
@@ -83,7 +85,6 @@
                     } else {
                         comp_vs_user.innerText = 'Homer wins';
                         bart_sound.play();
-
                     }
                 }
             }
@@ -91,16 +92,13 @@
             bt_rock.onclick = function() {
                 play_rps('rock');
             };
-
             bt_paper.onclick = function (){
                 play_rps('paper');
             };
-
             bt_scissors.onclick = function (){
                 play_rps('scissors');
             };
 
         </script>
-
     </body>
 </html>

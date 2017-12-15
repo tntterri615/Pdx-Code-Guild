@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #bt_page1 {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: -100px;
+        }
+        #bt_page2 {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: -70px;
+        }
+        #bt_page3 {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: -40px;
+        }
+        #bt_page4 {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: -10px;
+        }
+        #avatar_div {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+    <script>
+        function http_get(url, success) {
+            let xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState === 4 && this.status === 200) {
+                    let data = JSON.parse(xhttp.responseText);
+                    success(data);
+                }
+            };
+            xhttp.open("GET", url);
+            xhttp.send();
+        }
+
+
+    </script>
+</head>
+<body>
+    <div id="avatar_div">
+        <div id="first_name"></div>
+        <div id="last_name"></div>
+        <div id="image"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <div id="users"></div>
+
+    <button id="bt_page1">1</button>
+    <button id="bt_page2">2</button>
+    <button id="bt_page3">3</button>
+    <button id="bt_page4">4</button>
+
+    <script>
+
+        function get_users(page) {
+            let output = document.getElementById("users");
+
+            users = '';                                                    <!-- clears info-->
+            while(output.firstChild){
+                output.removeChild(output.firstChild)
+            }
+
+            pkg = {page: page};
+            $.ajax({
+                url: "https://reqres.in/api/users",
+                data: pkg,
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);
+                    let users = data.data;
+                    for (let i = 0; i < users.length; i++) {
+                        let first_name = document.createElement('div');
+                        let last_name = document.createElement('div');
+                        let image = document.createElement('img');
+
+                        first_name.innerText = users[i].first_name;
+                        last_name.innerText = users[i].last_name;
+                        image.src = users[i].avatar;
+                        output.appendChild(first_name);
+                        output.appendChild(last_name);
+                        output.appendChild(image);
+                    }
+                }
+            });
+        }
+        get_users(1);
+
+        let bt_page1 = document.querySelector('#bt_page1')
+        let bt_page2 = document.querySelector('#bt_page2')
+        let bt_page3 = document.querySelector('#bt_page3')
+        let bt_page4 = document.querySelector('#bt_page4')
+
+        bt_page1.onclick = function (){
+            get_users(1);
+        };
+        bt_page2.onclick = function (){
+            get_users(2);
+        };
+        bt_page3.onclick = function (){
+            get_users(3);
+        };
+        bt_page4.onclick = function (){
+            get_users(4);
+        }
+
+    </script>
+</body>
+</html>

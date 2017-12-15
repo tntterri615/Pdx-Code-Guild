@@ -8,18 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
 <script>
-    function url() {
+    function random_url() {
         let url_list = ['https://www.google.com/', 'http://www.ikea.com/us/en/', 'https://www.target.com/', 'https://www.fredmeyer.com/'];
-        let random_url = Math.floor((Math.random()) * url_list.length);
-        return ( url_list[random_url]);
+        let random_index = Math.floor((Math.random()) * url_list.length);
+        return url_list[random_index];
     }
 
-window.location = url();
 
+    setTimeout(function() {
+        window.location = random_url();
+    }, 5000);
 
-
-
+    count = 0;
+    let interval = setInterval(function () {
+        count += 1;
+        if (count >= 5) {
+            clearInterval(interval);
+        }
+        alert(count);
+    }, 1000);
 
 </script>
 </body>

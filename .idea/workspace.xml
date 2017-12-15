@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25e061e3-4907-4120-abbd-593fbb354024" name="Default" comment="capstone">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Javascript/contactlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Javascript/lab12.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Javascript/sounds/Doh.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Javascript/sounds/eatmyshorts.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Javascript/sounds/whyyoulittle.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Python/contacts.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Python/dict_practice.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Python/garbage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Python/lab22practiceproblems.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Python/lab30adventure.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Python/labcrimedata.py" />
+      <change beforePath="$USER_HOME$/Desktop/tntterri615.github.io/index.html" afterPath="$USER_HOME$/Desktop/tntterri615.github.io/index.html" />
+      <change beforePath="$USER_HOME$/Desktop/tntterri615.github.io/index_style.css" afterPath="$USER_HOME$/Desktop/tntterri615.github.io/index_style.css" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/create.html" afterPath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/create.html" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/detailedBlog.html" afterPath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/detailedBlog.html" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/index.html" afterPath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/index.html" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/newBlog.html" afterPath="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/newBlog.html" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/db.sqlite3" afterPath="$PROJECT_DIR$/Django/mainsite/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/library/templates/library/index.html" afterPath="$PROJECT_DIR$/Django/mainsite/library/templates/library/index.html" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/mainsite/settings.py" afterPath="$PROJECT_DIR$/Django/mainsite/mainsite/settings.py" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/mainsite/urls.py" afterPath="$PROJECT_DIR$/Django/mainsite/mainsite/urls.py" />
+      <change beforePath="$PROJECT_DIR$/Django/mainsite/url_shortener/views.py" afterPath="$PROJECT_DIR$/Django/mainsite/url_shortener/views.py" />
+      <change beforePath="$PROJECT_DIR$/Javascript/demo.html" afterPath="$PROJECT_DIR$/Javascript/demo.html" />
+      <change beforePath="$PROJECT_DIR$/Javascript/lab1.2.html" afterPath="$PROJECT_DIR$/Javascript/lab1.2.html" />
+      <change beforePath="$PROJECT_DIR$/Javascript/lab1.css" afterPath="$PROJECT_DIR$/Javascript/lab1.css" />
+      <change beforePath="$PROJECT_DIR$/Javascript/lab10.html" afterPath="$PROJECT_DIR$/Javascript/lab10.html" />
+      <change beforePath="$PROJECT_DIR$/Javascript/lab14.html" afterPath="$PROJECT_DIR$/Javascript/lab11.html" />
+      <change beforePath="$PROJECT_DIR$/Javascript/lab8.html" afterPath="$PROJECT_DIR$/Javascript/lab8.html" />
+      <change beforePath="$PROJECT_DIR$/Python/lab11averagenumbers.py" afterPath="$PROJECT_DIR$/Python/lab11averagenumbers.py" />
+      <change beforePath="$PROJECT_DIR$/Python/lab13guessthenumber.py" afterPath="$PROJECT_DIR$/Python/lab13guessthenumber.py" />
+      <change beforePath="$PROJECT_DIR$/Python/lab14practiceproblems.py" afterPath="$PROJECT_DIR$/Python/lab14practiceproblems.py" />
+      <change beforePath="$PROJECT_DIR$/Python/lab15ROT13.py" afterPath="$PROJECT_DIR$/Python/lab15ROT13.py" />
+      <change beforePath="$PROJECT_DIR$/Python/lab23blackjack1.py" afterPath="$PROJECT_DIR$/Python/lab23blackjack1.py" />
+      <change beforePath="$PROJECT_DIR$/Python/lab27contactlist.py" afterPath="$PROJECT_DIR$/Python/lab27contactlist.py" />
+      <change beforePath="$PROJECT_DIR$/Python/lab28socks.py" afterPath="$PROJECT_DIR$/Python/lab28socks.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab20creditcardvalidation.coverage" NAME="lab20creditcardvalidation Coverage Results" MODIFIED="1507834263077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$dict_practice.coverage" NAME="dict_practice Coverage Results" MODIFIED="1509036030351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab29roadtrip.coverage" NAME="lab29roadtrip Coverage Results" MODIFIED="1509143092660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab15ROT13.coverage" NAME="lab15ROT13 Coverage Results" MODIFIED="1510083389364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab21peaksandvalleys.coverage" NAME="lab21peaksandvalleys Coverage Results" MODIFIED="1507917047095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab1turtle.coverage" NAME="lab1turtle Coverage Results" MODIFIED="1508542188601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab24bogosort.coverage" NAME="lab24bogosort Coverage Results" MODIFIED="1510011878671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$emoticons.coverage" NAME="emoticons Coverage Results" MODIFIED="1507073175767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$guessthenumer2.coverage" NAME="guessthenumer2 Coverage Results" MODIFIED="1507239299672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab17numberto_phrase.coverage" NAME="lab17numberto phrase Coverage Results" MODIFIED="1507740818425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab08rockpaperscissors.coverage" NAME="lab08rockpaperscissors Coverage Results" MODIFIED="1510006167781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab13guessthenumber2.coverage" NAME="lab13guessthenumber2 Coverage Results" MODIFIED="1508712748292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$magic_8_ball.coverage" NAME="magic_8_ball Coverage Results" MODIFIED="1507071335629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab2_hello.coverage" NAME="lab2-hello Coverage Results" MODIFIED="1507063302182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab06emoticons.coverage" NAME="lab06emoticons Coverage Results" MODIFIED="1508628441197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab22practiceproblems.coverage" NAME="lab22practiceproblems Coverage Results" MODIFIED="1509140782965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$unitconverter.coverage" NAME="unitconverter Coverage Results" MODIFIED="1507155383202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$grading.coverage" NAME="grading Coverage Results" MODIFIED="1507069231136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$garbage.coverage" NAME="garbage Coverage Results" MODIFIED="1508965573218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab26computeari.coverage" NAME="lab26computeari Coverage Results" MODIFIED="1508350264548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$simplecalculator.coverage" NAME="simplecalculator Coverage Results" MODIFIED="1507228732783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab19palindromeandanagram.coverage" NAME="lab19palindromeandanagram Coverage Results" MODIFIED="1507763554032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab07random_password.coverage" NAME="lab07random_password Coverage Results" MODIFIED="1509999418733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab05magic_8_ball.coverage" NAME="lab05magic_8_ball Coverage Results" MODIFIED="1512255723016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab32raindata.coverage" NAME="lab32raindata Coverage Results" MODIFIED="1509054031974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$random_password.coverage" NAME="random_password Coverage Results" MODIFIED="1507141084774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab18imagemanipulation.coverage" NAME="lab18imagemanipulation Coverage Results" MODIFIED="1507755447035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab13guessthenumber.coverage" NAME="lab13guessthenumber Coverage Results" MODIFIED="1510799740348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$practiceproblems.coverage" NAME="practiceproblems Coverage Results" MODIFIED="1507246087347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab23blackjack1.coverage" NAME="lab23blackjack1 Coverage Results" MODIFIED="1508178343659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$guessthenumber.coverage" NAME="guessthenumber Coverage Results" MODIFIED="1507231537302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$rockpaperscissors.coverage" NAME="rockpaperscissors Coverage Results" MODIFIED="1507143299119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab16pick6.coverage" NAME="lab16pick6 Coverage Results" MODIFIED="1507670511522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab27contactlist.coverage" NAME="lab27contactlist Coverage Results" MODIFIED="1509126352571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab30adventure.coverage" NAME="lab30adventure Coverage Results" MODIFIED="1509124650976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$makechange.coverage" NAME="makechange Coverage Results" MODIFIED="1507151691410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$averagenumbers.coverage" NAME="averagenumbers Coverage Results" MODIFIED="1507224191048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$test.coverage" NAME="test Coverage Results" MODIFIED="1507054268651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$labcrimedata.coverage" NAME="labcrimedata Coverage Results" MODIFIED="1509127584454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab14practiceproblems.coverage" NAME="lab14practiceproblems Coverage Results" MODIFIED="1507327457741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab28socks.coverage" NAME="lab28socks Coverage Results" MODIFIED="1509124398562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$ROT13.coverage" NAME="ROT13 Coverage Results" MODIFIED="1507327688921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$madlib.coverage" NAME="madlib Coverage Results" MODIFIED="1507070979726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab25countwords.coverage" NAME="lab25countwords Coverage Results" MODIFIED="1508277100707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Pdx_Code_Guild$lab31atm.coverage" NAME="lab31atm Coverage Results" MODIFIED="1509053586044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="capstone_proposal.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/capstone_proposal.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="246">
+                <caret line="9" column="124" lean-forward="false" selection-start-line="9" selection-start-column="124" selection-end-line="9" selection-end-column="124" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user_balance</find>
+      <find>Therefore I put down for one of</find>
+      <find>computer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>user_winnings</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Python/lab27contactlist.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Django/mainsite/todo/admin.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/models.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/admin.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/results.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/views.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/templates/polls/static/polls/style.css" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/templates/polls/index.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/templates/polls/detail.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/templates/polls/results.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mysite/polls/static/polls/style.css" />
+        <option value="$PROJECT_DIR$/Django/mainsite/todo/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/url_shortener/index.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/models.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/static/style.css" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/templates/url_shortener/index.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/static/url_shortener/style.css" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/admin.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/templates/library/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/todo/models.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/todo/templates/todo/index.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/todo/views.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/admin.py" />
+        <option value="$PROJECT_DIR$/Django/mysite/polls/templates/polls/index.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/static/library/style.css" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/models.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/views.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mainsite/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/mainsite/settings.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/admin.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/templates/library/index.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/templates/library/createBlog.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/library/templates/library/newBlog.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/indexPoster.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/posterIndex.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/welcome.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/urls.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/url_shortener/views.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/models.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/migrations/0002_auto_20171207_1532.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/newBlog.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/index.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/create.html" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/views.py" />
+        <option value="$PROJECT_DIR$/Django/mainsite/blog/templates/blog/detailedBlog.html" />
+        <option value="$PROJECT_DIR$/captone_proposal.md" />
+        <option value="$PROJECT_DIR$/capstone_proposal.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="27" />
+    <option name="width" value="1730" />
+    <option name="height" value="1714" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pdx-Code-Guild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pdx-Code-Guild" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pdx-Code-Guild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pdx-Code-Guild" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pdx-Code-Guild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pdx-Code-Guild" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pdx-Code-Guild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pdx-Code-Guild" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="RUNdoYourCravings" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/leonMarrowBone.jpg" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\terri\PycharmProjects\Pdx-Code-Guild\Django\mainsite\blog\templates\blog" />
+      <recent name="C:\Users\terri\PycharmProjects\Pdx-Code-Guild\Django\mainsite" />
+      <recent name="C:\Users\terri\PycharmProjects\Pdx-Code-Guild\Django\mainsite\library" />
+      <recent name="C:\Users\terri\PycharmProjects\Pdx-Code-Guild\Django\mainsite\url_shortener\static\url_shortener" />
+      <recent name="C:\Users\terri\PycharmProjects\Pdx-Code-Guild\Django\mainsite\url_shortener\static\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.lab05magic_8_ball">
+    <configuration name="lab12.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Pdx-Code-Guild/Javascript/lab12.html" />
+    <configuration name="lab8.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Pdx-Code-Guild/Javascript/lab8.html" />
+    <configuration name="lab9.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Pdx-Code-Guild/Javascript/lab9.html" />
+    <configuration name="lab05magic_8_ball" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pdx-Code-Guild" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/lab05magic_8_ball.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lab13guessthenumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pdx-Code-Guild" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/lab13guessthenumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.lab05magic_8_ball" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.lab8.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.lab9.html" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lab13guessthenumber" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.lab12.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.lab05magic_8_ball" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.lab12.html" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lab13guessthenumber" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.lab9.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.lab8.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25e061e3-4907-4120-abbd-593fbb354024" name="Default" comment="" />
+      <created>1507052654657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507052654657</updated>
+    </task>
+    <task id="LOCAL-00004" summary="make friend for stick figure">
+      <created>1507059283044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507059283044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="make friend for stick figure">
+      <created>1507059369219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507059369219</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial revision">
+      <created>1507263353384</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263353384</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial revision">
+      <created>1507263381257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263381257</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial revision">
+      <created>1507263410061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263410061</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial revision">
+      <created>1507263428989</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263428989</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial revision">
+      <created>1507263445437</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263445437</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial revision">
+      <created>1507263516201</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263516201</updated>
+    </task>
+    <task id="LOCAL-00012" summary="initial revision">
+      <created>1507263530743</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263530743</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial revision">
+      <created>1507263547003</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1507263547003</updated>
+    </task>
+    <task id="LOCAL-00014" summary="initial revision">
+      <created>1507313223530</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1507313223530</updated>
+    </task>
+    <task id="LOCAL-00015" summary="revision">
+      <created>1507313266626</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1507313266626</updated>
+    </task>
+    <task id="LOCAL-00016" summary="initial">
+      <created>1507920734735</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1507920734735</updated>
+    </task>
+    <task id="LOCAL-00017" summary="initial">
+      <created>1507920751156</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1507920751156</updated>
+    </task>
+    <task id="LOCAL-00018" summary="initial">
+      <created>1507920770327</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1507920770327</updated>
+    </task>
+    <task id="LOCAL-00019" summary="initial">
+      <created>1507920785949</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1507920785949</updated>
+    </task>
+    <task id="LOCAL-00020" summary="initial">
+      <created>1507920804856</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1507920804856</updated>
+    </task>
+    <task id="LOCAL-00021" summary="initial">
+      <created>1507920823789</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1507920823789</updated>
+    </task>
+    <task id="LOCAL-00022" summary="initial">
+      <created>1508106096921</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1508106096921</updated>
+    </task>
+    <task id="LOCAL-00023" summary="initial">
+      <created>1508106115999</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1508106115999</updated>
+    </task>
+    <task id="LOCAL-00024" summary="revised function to look cleaner">
+      <created>1508177384294</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1508177384294</updated>
+    </task>
+    <task id="LOCAL-00025" summary="initial">
+      <created>1508518545086</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1508518545086</updated>
+    </task>
+    <task id="LOCAL-00026" summary="initial">
+      <created>1508518566691</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1508518566691</updated>
+    </task>
+    <task id="LOCAL-00027" summary="initial">
+      <created>1508518592388</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1508518592388</updated>
+    </task>
+    <task id="LOCAL-00028" summary="initial">
+      <created>1508518611156</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1508518611156</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ititial">
+      <created>1509053531110</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1509053531110</updated>
+    </task>
+    <task id="LOCAL-00030" summary="initial">
+      <created>1509053665436</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1509053665436</updated>
+    </task>
+    <task id="LOCAL-00031" summary="initial">
+      <created>1509054072217</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1509054072217</updated>
+    </task>
+    <task id="LOCAL-00032" summary="initial">
+      <created>1509054215959</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1509054215959</updated>
+    </task>
+    <task id="LOCAL-00033" summary="made recursion branch like tree">
+      <created>1509146991966</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1509146991966</updated>
+    </task>
+    <task id="LOCAL-00034" summary="initial commit">
+      <created>1509554621453</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1509554621453</updated>
+    </task>
+    <task id="LOCAL-00035" summary="updated ul">
+      <created>1509556118188</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1509556118188</updated>
+    </task>
+    <task id="LOCAL-00036" summary="first commit">
+      <created>1509750080612</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1509750080612</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added javascript labs">
+      <created>1510619495764</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1510619495764</updated>
+    </task>
+    <task id="LOCAL-00038" summary="first commit">
+      <created>1510857257771</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1510857257771</updated>
+    </task>
+    <task id="LOCAL-00039" summary="first commit">
+      <created>1510857283027</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1510857283027</updated>
+    </task>
+    <task id="LOCAL-00040" summary="first commit">
+      <created>1510877542773</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1510877542773</updated>
+    </task>
+    <task id="LOCAL-00041" summary="revision">
+      <created>1511223256490</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1511223256490</updated>
+    </task>
+    <task id="LOCAL-00042" summary="first commit">
+      <created>1511999926358</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1511999926358</updated>
+    </task>
+    <task id="LOCAL-00043" summary="django stuff">
+      <created>1512086310967</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1512086310967</updated>
+    </task>
+    <task id="LOCAL-00044" summary="first commit">
+      <created>1512169991675</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1512169991675</updated>
+    </task>
+    <task id="LOCAL-00045" summary="lab 4 and updates">
+      <created>1512541429434</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1512541429434</updated>
+    </task>
+    <task id="LOCAL-00046" summary="lab 4 complete">
+      <created>1512589276750</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1512589276751</updated>
+    </task>
+    <task id="LOCAL-00047" summary="lab 5 complete">
+      <created>1512701548463</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1512701548463</updated>
+    </task>
+    <task id="LOCAL-00048" summary="capstone">
+      <created>1512765446400</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1512765446400</updated>
+    </task>
+    <task id="LOCAL-00049" summary="capstone">
+      <created>1512773476181</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1512773476181</updated>
+    </task>
+    <task id="LOCAL-00050" summary="capstone">
+      <created>1512773690799</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1512773690800</updated>
+    </task>
+    <task id="LOCAL-00051" summary="capstone">
+      <created>1512773767189</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1512773767189</updated>
+    </task>
+    <task id="LOCAL-00052" summary="capstone">
+      <created>1512774199725</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1512774199725</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951483" sideWeight="0.5025" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951483" sideWeight="0.49875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34377038" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941943" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1996875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985649" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941943" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="revision to clean up script" />
+    <MESSAGE value="make friend for stick figure" />
+    <MESSAGE value="initial revision" />
+    <MESSAGE value="revised function to look cleaner" />
+    <MESSAGE value="ititial" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="made recursion branch like tree" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="updated ul" />
+    <MESSAGE value="added javascript labs" />
+    <MESSAGE value="revision" />
+    <MESSAGE value="django stuff" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="lab 4 and updates" />
+    <MESSAGE value="lab 4 complete" />
+    <MESSAGE value="lab 5 complete" />
+    <MESSAGE value="capstone" />
+    <option name="LAST_COMMIT_MESSAGE" value="capstone" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/lab19palindromeandanagram.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="37" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/url_shortener/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mysite/mysite/settings.py" />
+    <entry file="file://$PROJECT_DIR$/Django/mysite/mysite/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/static/library/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/todo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/todo/templates/todo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/todo/templates/todo/checkout.html" />
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/polls/templates/polls/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/polls/templates/polls/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/polls/templates/polls/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/polls/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8521896d/f96fb362-1ae4-4f56-be96-66f808e51479/main.library_author">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8521896d/f96fb362-1ae4-4f56-be96-66f808e51479/main.library_book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8521896d/f96fb362-1ae4-4f56-be96-66f808e51479/main.library_rentalstatus">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/url_shortener/templates/url_shortener/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/mainsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/mainsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/templates/library/checkin.html" />
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/templates/library/checkout.html" />
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/todo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript/lab1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript/lab2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript/lab3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/templates/blog/indexPoster.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052">
+          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/templates/library/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/library/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/templates/blog/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/url_shortener/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/url_shortener/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1165">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8521896d/f96fb362-1ae4-4f56-be96-66f808e51479/main.blog_comment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/migrations/0002_auto_20171207_1532.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/templates/blog/newBlog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/capstone.md" />
+    <entry file="file://$PROJECT_DIR$/capstone.md" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="44" column="58" lean-forward="false" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/templates/blog/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/mainsite/blog/templates/blog/detailedBlog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capstone_proposal.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="246">
+            <caret line="9" column="124" lean-forward="false" selection-start-line="9" selection-start-column="124" selection-end-line="9" selection-end-column="124" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
