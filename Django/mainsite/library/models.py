@@ -14,7 +14,7 @@ class Author (models.Model):
 class Book (models.Model):
     title = models.CharField(max_length=100)
     pubDate = models.DateField()
-    author = models.ForeignKey(Author)   # foreign key
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)   # foreign key
     checked_in = models.BooleanField(default=True)
     user = models.CharField(max_length=100, null=True)
     timestamp = models.DateField(default=timezone.now)
