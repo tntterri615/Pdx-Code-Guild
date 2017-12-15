@@ -17,7 +17,7 @@ class Comment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
     body = models.CharField(max_length=300)
     timestamp = models.DateTimeField(auto_now=True)
-    post = models.ForeignKey(BlogPost)
+    post = models.ForeignKey(BlogPost, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.body
